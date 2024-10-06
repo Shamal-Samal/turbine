@@ -1,4 +1,3 @@
-# Databricks notebook source
 from pyspark.sql.functions import col, mean, stddev, min, max, avg
 
 def load_data(file_paths):
